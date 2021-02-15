@@ -131,7 +131,7 @@
     >
       <div>
         <p>当前用户：{{ userInfo.username }}</p>
-        <p>当前用户：{{ userInfo.role_name }}</p>
+        <p>当前角色：{{ userInfo.role_name }}</p>
         <p>分配新角色：
           <el-select v-model="selectedRoleId" placeholder="请选择">
             <el-option
