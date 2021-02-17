@@ -5,11 +5,13 @@ import {
   Menu, Submenu, MenuItem, Breadcrumb,
   BreadcrumbItem, Card, Row, Col, Table,
   TableColumn, Switch, Tooltip, Pagination, Dialog,
-  Tag, Tree, Select, Option, Cascader,
-  MessageBox
+  Tag, Tree, Select, Option, Cascader, Alert, Tabs, TabPane
+  , MessageBox
 } from 'element-ui'
 
 Vue.use(Button)
+Vue.use(Tabs)
+Vue.use(TabPane)
 Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Input)
@@ -33,6 +35,7 @@ Vue.use(Pagination)
 Vue.use(Dialog)
 Vue.use(Tag)
 Vue.use(Tree)
+Vue.use(Alert)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Cascader)
