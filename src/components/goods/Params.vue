@@ -262,6 +262,7 @@ export default {
         this.selectedCateKeys = []
         this.manyTableData = []
         this.onlyTableData = []
+        return
       }
       const { data: res } = await this.$http.get(`categories/${this.cateId}/attributes`,
         {
