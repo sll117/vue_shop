@@ -6,11 +6,13 @@ import {
   BreadcrumbItem, Card, Row, Col, Table,
   TableColumn, Switch, Tooltip, Pagination, Dialog,
   Tag, Tree, Select, Option, Cascader, Alert, Tabs, Checkbox, CheckboxGroup
-  , TabPane, Steps, Step, Upload
+  , TabPane, Steps, Step, Upload, Timeline, TimelineItem
   , MessageBox
 } from 'element-ui'
 
 Vue.use(Button)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 Vue.use(Upload)
 Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
